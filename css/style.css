@@ -1,0 +1,72 @@
+
+
+.container-fluid{
+    /* border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: url('../img/fondo-amarillo.jpg');
+    background-size: cover;
+}
+.logo-top{
+    width: 400px;
+}
+
+/* Contenido de menu */
+.cont-menu{
+    /* border: 4px solid blue; */
+    width: 100%;
+}
+.cont-helado{
+    margin-bottom: 6%;
+}
+.cont-row-1{
+    display: flex !important;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.helado{
+    /* border: solid 2px red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.cont-helado img{
+    width: 100px;
+}
+
+
+
+
+.helado-1 .cont-description{
+    margin-left: 2%;
+    /* width: 50%; */
+}
+.cont-description{
+    width: 50%;
+}
+.nombre_helado{
+    font-size: 19pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.descricion{
+    /* border: solid sandybrown 3px; */
+    font-size: 10pt;
+    margin: 0;
+}
+.precio{
+    font-size: 24pt;
+}
+
+
+
+.cont-helado-2 img{
+    /* border: solid 2px red; */
+    width: 200px;
+}
+
+
+/* Fin contenido del menu */
